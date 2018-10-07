@@ -1,7 +1,13 @@
 # Gradle
-## Inicjowanie nowego projektu Java
+## Podstawowe komendy
 
-`gradle init --type java-library`
+* `gradle init --type java-library` - stworzenie projektu Java
+* `gradle tasks` - pokazuje informacje o dostępnych zadaniach
+* Uruchamianie wybranych testów
+** `gradle test --tests org.gradle.SomeTest.someSpecificFeature`
+** `gradle test --tests *SomeTest.someSpecificFeature`
+** `gradle test --tests *SomeSpecificTest`
+** `gradle test --tests all.in.specific.package*`
 
 ## Dodatkowe informacje
 
