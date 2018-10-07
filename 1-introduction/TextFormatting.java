@@ -7,43 +7,48 @@ public class TextFormatting {
      */
 
     public static void main(String[] args) {
+        stringFormatting();
+        integerFormatting();
+    }
+
+    public static void stringFormatting(){
         //Default formatting
-        String.format("|%s|", "Hello World"); // prints: "Hello World"
+        System.out.println(String.format("|%s|", "Hello World")); // prints: "Hello World"
 
         //Specify Field Length
-        String.format("|%30s|", "Hello World"); // prints: |                   Hello World|
+        System.out.println(String.format("|%30s|", "Hello World")); // prints: |                   Hello World|
 
         //Left Justify Text
-        String.format("|%-30s|", "Hello World"); // prints: |Hello World |
+        System.out.println(String.format("|%-30s|", "Hello World")); // prints: |Hello World                   |
 
         //Specify Maximum Number of Characters
-        String.format("|%.5s|", "Hello World"); // prints: |Hello|
+        System.out.println(String.format("|%.5s|", "Hello World")); // prints: |Hello|
 
         //Field Width and Maximum Number of Characters
-        String.format("|%30.5s|", "Hello World"); //prints | Hello|
+        System.out.println(String.format("|%30.5s|", "Hello World")); //prints |                         Hello|
 
     }
 
     public static void integerFormatting(){
         // Default formatting:
-        String.format("%d", 93); // prints 93
+        System.out.println(String.format("%d", 93)); // prints 93
 
         //Specifying a width:
-        String.format("|%20d|", 93); // prints: |                  93|
+        System.out.println(String.format("|%20d|", 93)); // prints: |                  93|
 
         //Pad with zeros:
-        String.format("|%020d|", 93); // prints: |00000000000000000093|
+        System.out.println(String.format("|%020d|", 93)); // prints: |00000000000000000093|
 
         //Use locale-specific thousands separator:
-        String.format("|%,d|", 10000000); // prints: |10,000,000|
+        System.out.println(String.format("|%,d|", 10000000)); // prints: |10,000,000|
 
         //Octal output:
-        String.format("|%o|", 93); // prints: 135
-        String.format("|%#o|", 93); // prints: 0135
+        System.out.println(String.format("|%o|", 93)); // prints: 135
+        System.out.println(String.format("|%#o|", 93)); // prints: 0135
 
         //Hex output:
-        String.format("|%x|", 93); // prints: 5d
-        String.format("|%#x|", 93); // prints: 0x5d
-        String.format("|%#X|", 93);
+        System.out.println(String.format("|%x|", 93)); // prints: 5d
+        System.out.println(String.format("|%#x|", 93)); // prints: 0x5d
+        System.out.println(String.format("|%#X|", 93)); // prints: 0X%D
     }
 }

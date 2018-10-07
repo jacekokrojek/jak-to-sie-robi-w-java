@@ -8,6 +8,8 @@ public class Property {
     public static void main(String args[]) {
         System.out.println("--- Date:");
         System.out.println(new Date());
+		// More information at https://docs.oracle.com/javase/tutorial/essential/environment/sysprop.html
+		System.out.println("--- System Properties"); 		
         System.getProperties().list(System.out);
         System.out.println("--- Memory Usage:");
         Runtime rt = Runtime.getRuntime();
