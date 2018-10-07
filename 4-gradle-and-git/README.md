@@ -35,6 +35,7 @@
 * `git reset --hard HEAD` - cofnięcie zmian i powrót do wersji z ostatniego commit'a
 
 ## Dodatkowe informacje
+* https://nvie.com/posts/a-successful-git-branching-model/
 * https://blog.osteele.com/2008/05/my-git-workflow/
 * https://git-scm.com/book/pl/v2
 * https://www.youtube.com/watch?v=ZDR433b0HJY
