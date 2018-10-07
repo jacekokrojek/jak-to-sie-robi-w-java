@@ -1,7 +1,6 @@
 public class PrimitiveTypes {
 
     public static void main(String[] args) {
-
         /* Boolean literal */
         boolean result = true;
 
