@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="h.regex.RegexSyntax" tests="21" skipped="0" failures="0" errors="0" timestamp="2018-10-05T07:29:30" hostname="LAPTOP-L1GV01GI" time="0.012">
+  <properties/>
+  <testcase name="givenNORSet_whenMatchesAllExceptElements_thenCorrect" classname="h.regex.RegexSyntax" time="0.001"/>
+  <testcase name="givenNonWordCharacter_whenMatches_thenCorrect" classname="h.regex.RegexSyntax" time="0.0"/>
+  <testcase name="givenZeroOrOneQuantifier_whenMatches_thenCorrect" classname="h.regex.RegexSyntax" time="0.001"/>
+  <testcase name="givenNonWhiteSpace_whenMatches_thenCorrect" classname="h.regex.RegexSyntax" time="0.001"/>
+  <testcase name="givenText_whenSimpleRegexMatchesTwice_thenCorrect" classname="h.regex.RegexSyntax" time="0.001"/>
+  <testcase name="givenOneOrManyQuantifier_whenMatches_thenCorrect" classname="h.regex.RegexSyntax" time="0.0"/>
+  <testcase name="givenWordCharacter_whenMatches_thenCorrect" classname="h.regex.RegexSyntax" time="0.0"/>
+  <testcase name="givenText_whenSimpleRegexMatches_thenCorrect" classname="h.regex.RegexSyntax" time="0.0"/>
+  <testcase name="givenBraceQuantifier_whenMatches_thenCorrect" classname="h.regex.RegexSyntax" time="0.001"/>
+  <testcase name="givenZeroOrOneQuantifier_whenMatches_thenCorrect2" classname="h.regex.RegexSyntax" time="0.0"/>
+  <testcase name="givenWhiteSpace_whenMatches_thenCorrect" classname="h.regex.RegexSyntax" time="0.0"/>
+  <testcase name="givenNonDigits_whenMatches_thenCorrect" classname="h.regex.RegexSyntax" time="0.001"/>
+  <testcase name="givenDigits_whenMatches_thenCorrect" classname="h.regex.RegexSyntax" time="0.0"/>
+  <testcase name="givenZeroOrManyQuantifier_whenMatches_thenCorrect" classname="h.regex.RegexSyntax" time="0.001"/>
+  <testcase name="givenNORSet_whenMatchesNon_thenCorrect" classname="h.regex.RegexSyntax" time="0.001"/>
+  <testcase name="givenORSet_whenMatchesAny_thenCorrect" classname="h.regex.RegexSyntax" time="0.001"/>
+  <testcase name="givenUpperCaseRange_whenMatchesUpperCase_thenCorrect" classname="h.regex.RegexSyntax" time="0.0"/>
+  <testcase name="givenText_whenMatchesWithDotMetach_thenCorrect" classname="h.regex.RegexSyntax" time="0.0"/>
+  <testcase name="givenORSet_whenMatchesAllCombinations_thenCorrect" classname="h.regex.RegexSyntax" time="0.001"/>
+  <testcase name="givenRepeatedText_whenMatchesOnceWithDotMetach_thenCorrect" classname="h.regex.RegexSyntax" time="0.0"/>
+  <testcase name="givenORSet_whenMatchesAnyAndAll_thenCorrect" classname="h.regex.RegexSyntax" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
