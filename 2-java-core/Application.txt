@@ -1,0 +1,16 @@
+INFO: Processing next file
+INFO: Processing next file
+ERROR: Invalid character
+INFO: Processing next file
+INFO: Processing next file
+INFO: Processing next file
+INFO: Processing next file
+SEVERE: No data
+ERROR: File not found
+INFO: Processing next file
+INFO: Processing next file
+INFO: Processing next file
+ERROR: File not found
+INFO: Processing next file
+ERROR: Directory not found
+INFO: Processing next file
