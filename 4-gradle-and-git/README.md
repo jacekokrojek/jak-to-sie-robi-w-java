@@ -9,6 +9,32 @@
   * `gradle test --tests *SomeSpecificTest`
   * `gradle test --tests all.in.specific.package*`
 
+## Przykłady konfiguracji
+* Konfiguracja pliku manifest
+```
+jar {
+    manifest {
+        attributes(
+                'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
+                'Main-Class': 'generator.Pesel'
+        )
+    }
+}
+```
+
+* Dodawanie lokalnych zależności
+```
+dependencies {
+    compile files('libs/your-library-file-name.jar')
+}
+```
+* Ustawianie zmiennych JVM
+```
+run{
+    systemProperties = ['java.util.logging.config.file' : 'logging.properties']
+}
+```
+
 ## Dodatkowe informacje
 
 * https://docs.gradle.org/current/userguide/build_init_plugin.html
