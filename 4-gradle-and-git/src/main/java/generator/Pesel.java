@@ -12,8 +12,11 @@ public class Pesel {
 
     public static void main(String[] args) {
         Pesel pesel = new Pesel();
-        String base = "" + pesel.generate();
-        System.out.print(base + Pesel.checksum(base));
+        int num = args.length != 0 ? Integer.parseInt(args[0]) : 1;
+        for (int i = 0; i < num; i++) {
+            String base = "" + pesel.generate();
+            System.out.println(base + Pesel.checksum(base));
+        }
     }
 
     public Pesel() {

@@ -6,7 +6,7 @@ public class ArrayListExample {
     public static void main(String args[]) {
         /*Creation of ArrayList: I'm going to add String
          *elements so I made it of string type */
-        ArrayList<String> obj = new ArrayList<String>();
+        ArrayList<String> obj = new ArrayList<>();
 
         /*This is how elements should be added to the array list*/
         obj.add("Ajeet");
@@ -17,6 +17,9 @@ public class ArrayListExample {
 
         /* Displaying array list elements */
         System.out.println("Currently the array list has following elements:" + obj);
+
+        obj.get(1);
+        obj.size();
 
         /*Add element at the given index*/
         obj.add(0, "Rahul");

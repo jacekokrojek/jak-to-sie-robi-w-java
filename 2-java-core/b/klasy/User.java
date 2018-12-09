@@ -6,7 +6,8 @@ public class User {
     private String password;
 
     public User() {
-        this("username", "password");
+
+        this("admin", "admin1234");
     }
 
     public User(String username, String password) {
@@ -29,7 +30,7 @@ public class User {
     public static void main(String[] args){
         User regular = new User();
         System.out.print(regular.getUsername() + " user has password: " + regular.getPassword());
-        User admin = new User("admin", "admin");
+        User admin = new User("jacek", "Q!w2e3r4");
         System.out.print(admin.getUsername() + " user has password: " + admin.getPassword());
 
 
