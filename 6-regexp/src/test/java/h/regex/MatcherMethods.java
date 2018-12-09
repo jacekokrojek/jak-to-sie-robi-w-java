@@ -12,6 +12,8 @@ public class MatcherMethods {
     public static final String EXAMPLE_TEST = "This is my small example string which I'm going to use for pattern matching.";
 
     public static void main(String[] args) {
+        // \w+
+        // \n\r
         Pattern pattern = Pattern.compile("\\w+");
         // in case you would like to ignore case sensitivity,
         // you could use this statement:

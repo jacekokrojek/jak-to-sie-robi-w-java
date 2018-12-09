@@ -5,6 +5,10 @@ class Rock {
     Rock() { // This is the constructor
         System.out.println("Creating Rock");
     }
+
+    Rock(int param){
+        System.out.println("Creating Rock with param " + param);
+    }
 }
 public class SimpleConstructor {
     public static void main(String args[]) {

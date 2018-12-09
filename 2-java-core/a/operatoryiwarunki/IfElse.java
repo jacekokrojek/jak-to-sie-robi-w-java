@@ -4,12 +4,13 @@ public class IfElse {
     static final int TARGET = 0;
     static int test(int testval) {
         int result = 0;
-        if(testval > TARGET)
+        if(testval > TARGET) {
             result = -1;
-        else if(testval < TARGET)
+        } else if(testval < TARGET) {
             result = +1;
-        else
+        } else {
             result = 0; // match
+        }
         return result;
     }
 

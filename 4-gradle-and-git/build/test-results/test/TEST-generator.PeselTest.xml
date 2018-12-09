@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="generator.PeselTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-10-05T07:29:30" hostname="LAPTOP-L1GV01GI" time="0.002">
-  <properties/>
-  <testcase name="shouldGeneratedCorrectChecksum" classname="generator.PeselTest" time="0.001"/>
-  <testcase name="shouldGeneratedRandomValue" classname="generator.PeselTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
