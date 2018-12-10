@@ -7,6 +7,8 @@ package logging;
  * -Djava.util.logging.config.file=logging.properties
  */
 
+import logging.details.DetailedLogSample;
+
 import java.util.logging.ConsoleHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -22,32 +24,17 @@ public class LoggingSample {
 
         // now we demo the logging
         // set the LogLevel to severe, warning and info, will override file setting
-        // LOGGER.setLevel(Level.SEVERE);
+        LOGGER.setLevel(Level.SEVERE);
         LOGGER.severe("Info Log");
         LOGGER.warning("Info Log " );
         LOGGER.info("Info Log");
     }
 
-    public void doSomeUncommonThingAndLog(){
-
-            // LOG this level to the log
-            LOGGER.setLevel(Level.FINEST);
-
-            ConsoleHandler handler = new ConsoleHandler();
-            // PUBLISH this level
-            handler.setLevel(Level.FINER);
-            LOGGER.addHandler(handler);
-
-            LOGGER.finer("Info Log");
-            LOGGER.finest("Info Log");
-
-    }
-
     public static void main(String[] args) {
         LoggingSample tester = new LoggingSample();
         tester.doSomeThingAndLog();
-        //tester.doSomeUncommonThingAndLog();
+        DetailedLogSample detailed = new DetailedLogSample();
+        detailed.doSomeUncommonThingAndLog();
     }
-
 
 }
